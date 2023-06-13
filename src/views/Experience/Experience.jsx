@@ -34,13 +34,13 @@ const experiences = [
     company: 'Henry Bootcamp',
     date: 'February 2019 - October 2020',
     description: `Henry Bootcamp is an intensive programming training program focused on equipping students with practical, real-world applicable skills. During my time at Henry, I worked in a fast-paced, immersive, and collaborative environment that promoted continuous learning and quick adaptation to new programming technologies and techniques. The bootcamp covered a range of topics, from programming fundamentals to more advanced and industry-specific concepts. Throughout the program, I had the opportunity to work on practical projects, both individually and as part of a team, allowing me to apply and solidify the knowledge I was gaining. This experience at Henry was intense but incredibly rewarding, as it allowed me to grow as a programmer and prepare for the challenges of today's tech world.`,
-    skills: ['JavaScript','TypeScript', 'React (Redux & Hooks)', 'Express', 'PostgreSQL'],
+    skills: ['JavaScript','TypeScript', 'Git', 'React (Redux & Hooks)', 'Express', 'PostgreSQL'],
   },
   {
     company: 'VinciU',
     date: 'December 2020 - January 2023',
     description: `VinciU is an academy offering courses in programming, 3D modeling, and electronics, aimed at teenagers between the ages of 12 and 18 who are interested in having their first interaction with technology. As part of this ambitious venture, I served as an instructor for the web programming course. We encouraged students to undertake both individual and group projects, fostering a collaborative environment while simultaneously promoting independent thought. The culmination of their learning journey was the development of an e-commerce website's front end, providing them with tangible evidence of their newly acquired skills. This opportunity to ignite the spark of innovation in these young minds was a fulfilling and rewarding experience.`,
-    skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+    skills: ['HTML', 'CSS','Git', 'JavaScript', 'React'],
   },
 ];
 
