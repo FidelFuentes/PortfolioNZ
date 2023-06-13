@@ -8,7 +8,7 @@ const About = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh',
+        height: '80vh',
         p: 2,
         bgcolor: '#F7F7F7',
       }}
@@ -21,8 +21,8 @@ const About = () => {
           width:'60%',
         }}
       >
-        <Typography variant="h3" component="div" gutterBottom>
-          About
+        <Typography variant="h4" component="div" gutterBottom sx={{color:'rgb(239, 65, 45)', fontWeight:'bold'}}>
+          ABOUT
         </Typography>
         <Typography variant="h6" component="div" gutterBottom>
           Hello, my name is Fidel Fuentes and I'm a full-stack developer based in New Zealand. I am passionate about combining my love for programming with my interest in education, which has led me to spend the last two years teaching JavaScript in the educational sector.
