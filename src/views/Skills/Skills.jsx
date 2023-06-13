@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Card, CardActionArea, CardContent, CardMedia } from '@mui/material';
+import { Box, Typography, Card, CardContent, CardMedia } from '@mui/material';
 
 // Import your images here
 import htmlIcon from '../../assets/htmlPAg.png';
