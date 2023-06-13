@@ -11,6 +11,7 @@ import reduxIcon from '../../assets/redux.png';
 import nodeIcon from '../../assets/nodejs (1).png';
 import expressIcon from '../../assets/express.png';
 import pgIcon from '../../assets/post.png';
+import  gitIcon from '../../assets/git.png'
 
 // Define your skills here
 const skills = [
@@ -18,6 +19,7 @@ const skills = [
   { name: 'CSS', image: cssIcon },
   { name: 'JavaScript', image: jsIcon },
   { name: 'TypeScript', image: tsIcon },
+  {name:'Git',image: gitIcon},
   { name: 'React', image: reactIcon },
   { name: 'Redux', image: reduxIcon },
   { name: 'Node.js', image: nodeIcon },
