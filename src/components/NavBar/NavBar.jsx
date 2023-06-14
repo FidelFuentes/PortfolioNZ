@@ -20,15 +20,15 @@ const NavBar = () => {
       <AppBar
         position="fixed"
         sx={{
-          height:'8vh',
-          pt:'0.5%',
+          height: '8vh',
+          pt: '0.5%',
           backgroundColor: isScrolled ? 'white' : 'rgb(239, 65, 45);',
           transition: 'backgroundColor 2s',
         }}
-        elevation={isScrolled ? 4 : 0} // se aplica sombra solo cuando se hace scroll
+        elevation={isScrolled ? 4 : 0}
       >
         <Toolbar variant="dense">
-          <Box sx={{ flexGrow: 1, pl: 25 }}>
+          <Box sx={{ flexGrow: 1, pl: '2%' }}>
             <Link
               activeClass="active"
               to="inicio"
@@ -43,8 +43,8 @@ const NavBar = () => {
                   backgroundSize: 'contain',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center',
-                  width: '50px',
-                  height: '50px',
+                  width: '5vh',
+                  height: '5vh',
                   padding: 0,
                   borderRadius: '50%',
                   color: 'black',
@@ -52,7 +52,7 @@ const NavBar = () => {
               ></Button>
             </Link>
           </Box>
-          <Box sx={{ pr: 40 }}>
+          <Box sx={{ pr: '4%' }}>
             {['about', 'skills', 'experience', 'projects', 'contact'].map((section) => (
               <Link
                 key={section}
@@ -65,21 +65,21 @@ const NavBar = () => {
                 color='black'
               >
                 <Button 
-    color="inherit"
-    sx={{
-        color: 'black',
-        '&:hover': {
-            transition: 'all 0.3s ease 0s',
-            background: 'linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32))',
-            color: 'white',
-        }
-    }}
->
-    {section}
-</Button>
-
-
-
+                  color="inherit"
+                  sx={{
+                    color: 'black',
+                    '&:hover': {
+                      transition: 'all 0.3s ease 0s',
+                      background: 'linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32))',
+                      color: 'white',
+                    },
+                    '@media (max-width: 600px)': {
+                      fontSize: '12px',
+                    },
+                  }}
+                >
+                  {section}
+                </Button>
               </Link>
             ))}
           </Box>

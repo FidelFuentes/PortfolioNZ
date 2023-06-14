@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/system';
-import image from '../../assets/Asunto[314].png';
+import image from '../../assets/Asunto.png';
 import { Link } from 'react-scroll';
 
 const LandingContainer = styled('div')({
@@ -29,8 +29,12 @@ const LandingContent = styled('div')({
 
 const LandingImage = styled('img')({
   flex: '1 1 auto',
+  //borderRadius:'60%',
+  border: '1px solid or',
+  paddingTop:'5%',
+  
   maxWidth: '50%',
-  height: '100%',
+  height: '90%',
   transition: 'opacity 1s'
 });
 

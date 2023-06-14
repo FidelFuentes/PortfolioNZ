@@ -8,8 +8,8 @@ const About = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '80vh',
-        p: 2,
+        minHeight: '80vh',
+        p: '2%',
         bgcolor: '#F7F7F7',
       }}
     >
@@ -18,10 +18,11 @@ const About = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'start',
-          width:'60%',
+          width: '100%',
+          maxWidth: '800px',
         }}
       >
-        <Typography variant="h4" component="div" gutterBottom sx={{color:'rgb(239, 65, 45)', fontWeight:'bold'}}>
+        <Typography variant="h4" component="div" gutterBottom sx={{ color: 'rgb(239, 65, 45)', fontWeight: 'bold' }}>
           ABOUT
         </Typography>
         <Typography variant="h6" component="div" gutterBottom>
