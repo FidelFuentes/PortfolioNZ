@@ -42,6 +42,13 @@ const experiences = [
     description: `VinciU is an academy offering courses in programming, 3D modeling, and electronics, aimed at teenagers between the ages of 12 and 18 who are interested in having their first interaction with technology. As part of this ambitious venture, I served as an instructor for the web programming course. We encouraged students to undertake both individual and group projects, fostering a collaborative environment while simultaneously promoting independent thought. The culmination of their learning journey was the development of an e-commerce website's front end, providing them with tangible evidence of their newly acquired skills. This opportunity to ignite the spark of innovation in these young minds was a fulfilling and rewarding experience.`,
     skills: ['HTML', 'CSS','Git', 'JavaScript', 'React'],
   },
+  {
+    company: 'VinciU',
+    date: 'May 2021 - January 2023',
+    description: `After a few months serving as an instructor, I had the opportunity to work also into the role of Front End Developer, as part of the support team. In this role, I was tasked with various responsibilities, which encompassed improving, maintaining, and supporting the user interface of our platform.`,
+    skills: ['HTML', 'CSS','Git', 'JavaScript', 'React'],
+  },
+
 ];
 
 function Experience() {
